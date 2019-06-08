@@ -1,4 +1,5 @@
 #!/bin/bash
+rm temps.csv
 echo "This is a temperature monitor script. Enter how long do you want to map temperatures."
 read -p "Enter time in minutes: " TOTAL_TIME
 GET_TEMP="/opt/vc/bin/vcgencmd measure_temp"
