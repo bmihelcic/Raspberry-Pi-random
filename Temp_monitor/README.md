@@ -1,4 +1,4 @@
-This is temperature monitor script for Raspberry Pi.
+There are two monitoring scripts for Raspberry Pi. One with temperatures only, and one which maps frequnecies as well so you can see when throttling occurs.
 When you execute the script, it will ask you for how long do you want to map temperatures (in minutes).
 After that, you will have complete file (in ~/ directory), named "temps.csv" with temperature data and all 4 cpu cores frequencies mapped in 1 min intervals. This way you can track cpu throttling at certain temperatures.
 You can easily import that in libre office calc and plot awesome diagrams.
