@@ -7,6 +7,8 @@ Note: do not close terminal session which is running the script, otherwise the t
 
 If you want to run the script from anywhere in the system:<br>
 sudo ln -s /home/pi/Raspberry-Pi-random/Temp_monitor/temp_track.sh /usr/bin/temp_monitor
+or if you want frequencies too:
+sudo ln -s /home/pi/Raspberry-Pi-random/Temp_monitor/temp_track_with_freq.sh /usr/bin/temp_monitor
 
 Some of data:<br>
 ![](Pictures/Raspberry_Pi_3B+.png)
