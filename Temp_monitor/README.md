@@ -6,8 +6,8 @@ You can easily import that in libre office calc and plot awesome diagrams.
 Note: do not close terminal session which is running the script, otherwise the test will close.
 
 If you want to run the script from anywhere in the system:<br>
-sudo ln -s /home/pi/Raspberry-Pi-random/Temp_monitor/temp_track.sh /usr/bin/temp_monitor
-or if you want frequencies too:
+sudo ln -s /home/pi/Raspberry-Pi-random/Temp_monitor/temp_track.sh /usr/bin/temp_monitor<br>
+or if you want frequencies too:<br>
 sudo ln -s /home/pi/Raspberry-Pi-random/Temp_monitor/temp_track_with_freq.sh /usr/bin/temp_monitor
 
 Some of data:<br>
